@@ -22,7 +22,7 @@
                             id="input-red"
                             oninput="this.nextElementSibling.value = this.value"
                         />
-                        <output>0</output>
+                        <output id="red-value">0</output>
                     </div>
                     <div class="input-container" id="div-green">
                         <label class="label">GREEN</label>
@@ -35,7 +35,7 @@
                             id="input-green"
                             oninput="this.nextElementSibling.value = this.value"
                         />
-                        <output>0</output>
+                        <output id="green-value">0</output>
                     </div>
                     <div class="input-container" id="div-blue">
                         <label class="label">BLUE</label>
@@ -48,8 +48,11 @@
                             id="input-blue"
                             oninput="this.nextElementSibling.value = this.value"
                         />
-                        <output>0</output>
+                        <output id="blue-value">0</output>
                     </div>
+                </div>
+                <div class="invert-div">
+                    <button id="colour-inverter">INVERT</button>
                 </div>
             </div>
         </main>
